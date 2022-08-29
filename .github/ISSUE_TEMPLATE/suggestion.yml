@@ -13,5 +13,6 @@ body:
       label: Your Suggestion
       description: |
         We love to hear your voice! Tell us anything you want Elcano to be changed. If you could provide a screenshot or video, that would be perfect!
+      placeholder: Type your thoughts here!
     validations:
       required: true
