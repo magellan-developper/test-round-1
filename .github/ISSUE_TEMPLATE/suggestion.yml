@@ -1,0 +1,17 @@
+name: Suggestions
+description: We value every single suggestion that you provided!
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue to make Elcano better!
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your Suggestion
+      description: |
+        We love to hear your voice! Tell us anything you want Elcano to be changed. If you could provide a screenshot or video, that would be perfect!
+    validations:
+      required: true
